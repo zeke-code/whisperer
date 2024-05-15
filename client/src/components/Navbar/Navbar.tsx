@@ -8,13 +8,6 @@ function Navbar() {
     return (
         <header className='flex items-center justify-end p-5'>
             <a href='#' className='brand ml-8 mr-auto text-2xl'>Whisperer</a>
-            <a className="cta mr-16 block" href="#">
-                <button className='bg-red-800 text-white px-4 py-2 
-                rounded-full transition-colors duration-500 ease
-                hover:bg-red-700'>
-                Play
-                </button>
-            </a>
             <button className="md:hidden block" onClick={() => setIsOpen(!isOpen)}>
                 <FiMenu size={24} />
             </button>
